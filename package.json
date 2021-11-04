@@ -1,0 +1,44 @@
+{
+  "name": "nestjs-ajv-serializer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kintuda/nestjs-ajv-validator-serializer-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kintuda/nestjs-ajv-validator-serializer-lib/issues"
+  },
+  "homepage": "https://github.com/Kintuda/nestjs-ajv-validator-serializer-lib#readme",
+  "devDependencies": {
+    "@nestjs/common": "8.1.2",
+    "@nestjs/core": "8.1.2",
+    "@nestjs/platform-express": "8.1.2",
+    "@nestjs/testing": "8.1.2",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.2.0"
+  },
+  "dependencies": {
+    "ajv": "^8.6.3",
+    "ajv-keywords": "^5.0.0",
+    "fast-json-stringify": "^2.7.11",
+    "rxjs": "^7.4.0"
+  }
+}
